@@ -1,20 +1,20 @@
-Child 0 started
-Child 1 started
-Child 2 started
-Child 3 started
-Child 4 started
-Child 0 ended
-Child 5 started
-Child 1 ended
-Child 6 started
-Child 7 started
-Child 2 ended
-Child 3 ended
-Child 8 started
-Child 4 ended
-Child 9 started
-Child 5 ended
-Child 6 ended
-Child 7 ended
-Child 8 ended
-Child 9 ended
+Child 0 created successfully!
+Child 1 created successfully!
+Child 2 created successfully!
+Child 3 created successfully!
+Child 4 created successfully!
+Child 5 created successfully!
+Child 6 created successfully!
+Child 7 created successfully!
+Child 8 created successfully!
+Child 9 created successfully!
+Child 9 ended with exit code 0
+Child 2 ended with exit code 0
+Child 3 ended with exit code 0
+Child 1 ended with exit code 0
+Child 8 ended with exit code 0
+Child 6 ended with exit code 0
+Child 0 ended with exit code 0
+Child 4 ended with exit code 0
+Child 7 ended with exit code 0
+Child 5 ended with exit code 0

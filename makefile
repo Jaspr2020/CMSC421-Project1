@@ -1,5 +1,7 @@
 all:
-	gcc -Wall -o likeServer likeServer.c
+	gcc -Wall -o LikeServer LikeServer.c
+	gcc -Wall -o PrimaryLikesServer PrimaryLikesServer.c
+	gcc -Wall -o ParentProcess ParentProcess.c
 
 run:
-	./likeServer
+	./ParentProcess
