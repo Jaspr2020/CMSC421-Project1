@@ -52,6 +52,7 @@ int main(int argc, char *argv[]) {
     ret = bind(sockfd, (struct sockaddr*)&serverAddr, sizeof(serverAddr));
     // Error in connection
     if (ret < 0) {
+        WriteLog("Failed to connect to port 4444.\n");
         exit(1);
     }
 

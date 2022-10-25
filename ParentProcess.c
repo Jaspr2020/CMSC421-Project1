@@ -4,6 +4,8 @@
 #include <unistd.h>
 #include <time.h>
 #include <sys/wait.h>
+#include <sys/stat.h>
+#include <sys/types.h>
 
 #define NUMSERVERS 10
 
@@ -84,6 +86,9 @@ int main(int argc, char *argv[]) {
 }
 
 void CreateLog() {
+    // Create tmp folder if it doesn't exist
+    mkdir("./tmp", 0777);
+
     // Create or clear log file
     FILE *fp;
     fp = fopen("./tmp/ParentProcessStatus.txt","w");
